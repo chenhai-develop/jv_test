@@ -1,0 +1,15 @@
+account:
+    user : 15813844569
+    user1 : 17607671670
+    password : 'Chenhai123'
+    password1 : 'Chenhai123'
+loginPage:
+    user_element : 'com.legrand.eliot:id/accountEt'
+    password_element : 'com.legrand.eliot:id/passwordEt'
+    loginbutton_element: 'com.legrand.eliot:id/login'
+    agree_element_element : 'com.legrand.eliot:id/agreementCB'
+permissionDialog :
+    button1 : 'android:id/button1'
+    confirm : 'com.legrand.eliot:id/confirm'
+    permission_allow : 'com.android.permissioncontroller:id/permission_allow_foreground_only_button'
+

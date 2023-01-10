@@ -1,0 +1,15 @@
+2023-01-09 14:59:05,728--->setup_class--->DEBUG--->测试开始
+2023-01-09 14:59:14,665--->test01_login--->DEBUG--->登录测试
+2023-01-09 14:59:14,667--->test01_login--->DEBUG--->用户名输入:15813844569
+2023-01-09 14:59:17,792--->test01_login--->DEBUG--->密码输入:Chenhai123
+2023-01-09 14:59:19,659--->test01_login--->DEBUG--->勾选用户协议检查
+2023-01-09 14:59:25,022--->test01_login--->DEBUG--->登录过程中截图
+2023-01-09 14:59:39,505--->test01_login--->DEBUG--->检测元素失败:Message: 
+Stacktrace:
+NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (C:\Users\chenhai\Desktop\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\Users\chenhai\Desktop\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:33:12)
+    at AndroidUiautomator2Driver.findElement (C:\Users\chenhai\Desktop\Appium-Server-GUI-windows-1.22.3-4\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\basedriver\commands\find.js:53:10),截图
+2023-01-09 14:59:39,507--->teardown_class--->DEBUG--->测试环境恢复
