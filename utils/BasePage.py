@@ -1,4 +1,4 @@
-from app_test.utils.BaseUtils import DriverUtils
+from jv_test.utils.BaseUtils import DriverUtils
 from selenium.webdriver.support.wait import WebDriverWait
 class BasePage(DriverUtils):
 

@@ -1,9 +1,9 @@
 import time
-from app_test.log.myscreen import get_screen
+from jv_test.log.myscreen import get_screen
 import pytest
-from app_test.data.ReadYaml import read_yaml
-from app_test.page.login_page import LoginPage
-from app_test.log.mylog import Logger
+from jv_test.data.ReadYaml import read_yaml
+from jv_test.page.login_page import LoginPage
+from jv_test.log.mylog import Logger
 logger = Logger()
 my_log = logger.get_log()
 
