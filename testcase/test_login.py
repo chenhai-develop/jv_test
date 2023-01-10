@@ -37,7 +37,7 @@ class TestLogin(LoginPage):
             self.navigation_my()
         except Exception as e:
             get_screen(self.get_driver())
-            my_log.debug(f'检测元素失败:{e},截图')
+            my_log.debug(f'检测元素失败并截图，错误打印:{e}')
 
 
     def teardown_class(self):
