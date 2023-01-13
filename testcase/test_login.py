@@ -13,10 +13,14 @@ class TestLogin(LoginPage):
 
     @pytest.mark.parametrize('user,password', [(read_yaml('account', 'user'), read_yaml('account', 'password'))])
     def test01_login(self, user, password):
-        if self.access().is_displayed():
+        if self.access():
             self.access().click()
-        if self.access_confirm().is_displayed():
+        else:
+            my_log.debug('权限弹窗已授权')
+        if self.access_confirm():
             self.access_confirm().click()
+        else:
+            my_log.debug('用户隐私弹窗已授权')
         my_log.debug('登录测试')
         my_log.debug(f"用户名输入:{user}")
         self.input_text(self.username(), user)

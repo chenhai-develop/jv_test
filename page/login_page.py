@@ -1,4 +1,3 @@
-
 from jv_test.data.ReadYaml import read_yaml
 from jv_test.utils.BasePage import BasePage
 from appium.webdriver.common.mobileby import MobileBy
